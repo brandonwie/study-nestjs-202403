@@ -1,10 +1,15 @@
-import { Controller, Get, Module } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 
 // decorator - nest makes use of decorators heavily
-@Controller()
+@Controller('/app')
 export class AppController {
-  @Get('/test')
+  @Get('/hi')
   getRootRoute() {
     return 'hi there!';
+  }
+
+  @Get('/bye')
+  getByeRoute() {
+    return 'bye there!';
   }
 }
