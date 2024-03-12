@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2017",
+    // absolute core of nestjs
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
