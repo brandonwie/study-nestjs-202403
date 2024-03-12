@@ -30,3 +30,15 @@ corepack enable pnpm
 ```
 
 - Follow pnpm installation instruction [here](https://pnpm.io/installation) for more
+
+## Install packages
+
+```bash
+pnpm install
+```
+
+## Run the application
+
+```bash
+pnpm dev
+```
